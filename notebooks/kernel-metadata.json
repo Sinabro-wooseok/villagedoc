@@ -7,7 +7,7 @@
   "is_private": false,
   "enable_gpu": true,
   "enable_tpu": false,
-  "enable_internet": false,
+  "enable_internet": true,
   "dataset_sources": [],
   "competition_sources": ["gemma-4-good-hackathon"],
   "kernel_sources": [],
