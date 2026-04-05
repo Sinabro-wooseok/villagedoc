@@ -1,0 +1,23 @@
+# VillageDoc - 핵심 의존성
+# Kaggle 환경: GPU T4/P100 지원
+
+# 추론 엔진
+llama-cpp-python>=0.2.90  # Gemma 4 GGUF 추론 (CUDA 지원)
+
+# 음성 인식
+openai-whisper>=20231117   # Whisper-tiny 오프라인 STT
+sounddevice>=0.4.6         # 마이크 녹음 (선택)
+soundfile>=0.12.1          # 오디오 파일 처리 (선택)
+
+# UI
+gradio>=4.44.0             # Kaggle 노트북 UI
+streamlit>=1.38.0          # 로컬 데모 UI
+
+# 이미지 처리
+Pillow>=10.4.0
+
+# 데이터
+# SQLite는 Python 표준 라이브러리 포함 (별도 설치 불필요)
+
+# 개발/테스트
+pytest>=8.0.0

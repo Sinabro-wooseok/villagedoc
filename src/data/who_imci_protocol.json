@@ -1,0 +1,200 @@
+{
+  "version": "WHO IMCI 2024",
+  "source": "WHO Integrated Management of Childhood Illness - District Clinician Manual",
+  "last_updated": "2024-01",
+  "conditions": {
+    "malaria": {
+      "icd10": "B54",
+      "classification": {
+        "severe": {
+          "criteria": [
+            "의식 저하 또는 경련",
+            "심한 빈혈 (결막 창백)",
+            "황달",
+            "호흡 곤란",
+            "소변량 감소",
+            "반복 구토 (모든 음식/음료 거부)"
+          ],
+          "treatment": "즉시 이송 + 정맥 아르테수네이트",
+          "referral": "immediate"
+        },
+        "uncomplicated": {
+          "criteria": [
+            "발열 > 37.5°C",
+            "두통",
+            "근육통",
+            "오한",
+            "RDT 양성"
+          ],
+          "treatment": {
+            "first_line": "AL (아르테메터-루메판트린)",
+            "dosing": {
+              "weight_5_14kg": "AL 20/120mg 1정 × 2회/일 × 3일",
+              "weight_15_24kg": "AL 20/120mg 2정 × 2회/일 × 3일",
+              "weight_25_34kg": "AL 20/120mg 3정 × 2회/일 × 3일",
+              "weight_over35kg": "AL 20/120mg 4정 × 2회/일 × 3일"
+            },
+            "notes": "지방 함유 음식과 복용 권장"
+          },
+          "referral": "within_24h_if_no_improvement"
+        }
+      },
+      "danger_signs": [
+        "경련",
+        "의식 불명",
+        "반복 구토",
+        "심한 탈수",
+        "황달 (간 침범)",
+        "호흡 곤란 (뇌 말라리아)"
+      ]
+    },
+    "pneumonia": {
+      "icd10": "J18.9",
+      "classification": {
+        "severe": {
+          "criteria": [
+            "흉부 함몰(chest indrawing)",
+            "코 벌렁임",
+            "SpO2 < 90%",
+            "청색증"
+          ],
+          "treatment": "즉시 이송",
+          "referral": "immediate"
+        },
+        "non_severe": {
+          "criteria": [
+            "빠른 호흡: 2개월 미만 ≥60회/분, 2-11개월 ≥50회/분, 1-5세 ≥40회/분",
+            "발열",
+            "기침"
+          ],
+          "treatment": {
+            "first_line": "아목시실린 40mg/kg/일 ÷ 2회 × 5일",
+            "alternative": "코트리목사졸"
+          }
+        }
+      },
+      "who_breathing_rates": {
+        "age_under_2mo": "≥60회/분",
+        "age_2_11mo": "≥50회/분",
+        "age_1_5yr": "≥40회/분"
+      }
+    },
+    "diarrhea": {
+      "icd10": "A09",
+      "classification": {
+        "severe_dehydration": {
+          "criteria": [
+            "무기력 또는 의식 저하",
+            "함몰된 눈",
+            "음수 불가",
+            "피부 탄력 매우 저하 (>2초)"
+          ],
+          "treatment": "즉시 이송 + 정맥 수액",
+          "referral": "immediate"
+        },
+        "some_dehydration": {
+          "criteria": [
+            "불안/보챔",
+            "함몰된 눈",
+            "갈증",
+            "피부 탄력 저하 (1-2초)"
+          ],
+          "treatment": "ORS 75ml/kg × 4시간"
+        },
+        "no_dehydration": {
+          "treatment": "ORS 10ml/kg/회 설사 후 + 아연 10-20mg/일 × 10-14일"
+        }
+      }
+    },
+    "acute_malnutrition": {
+      "icd10": "E43",
+      "classification": {
+        "sam": {
+          "name": "중증 급성 영양실조 (SAM)",
+          "criteria": [
+            "MUAC < 11.5cm (6-59개월)",
+            "양쪽 부종",
+            "WFH < -3 Z-score"
+          ],
+          "treatment": "RUTF (Ready-to-Use Therapeutic Food) + 즉시 이송",
+          "referral": "within_6h"
+        },
+        "mam": {
+          "name": "중등도 급성 영양실조 (MAM)",
+          "criteria": [
+            "MUAC 11.5-12.5cm",
+            "WFH -3 to -2 Z-score"
+          ],
+          "treatment": "RUSF + 식이 상담"
+        }
+      }
+    },
+    "neonatal_sepsis": {
+      "icd10": "P36.9",
+      "danger_signs": [
+        "수유 불가",
+        "경련",
+        "체온 < 35.5°C 또는 > 37.5°C",
+        "빠른 호흡 ≥60회/분",
+        "심한 함몰 배꼽",
+        "피부 농포 또는 물집"
+      ],
+      "treatment": "즉시 이송 + 신생아 패혈증 가능성 고려",
+      "referral": "immediate"
+    },
+    "eye_infection": {
+      "icd10": "H10.9",
+      "classification": {
+        "gonococcal_ophthalmia": {
+          "criteria": [
+            "생후 4일 이내",
+            "심한 화농성 분비물",
+            "눈꺼풀 부종"
+          ],
+          "treatment": "카나마이신 25mg/kg IM (단회) + 즉시 이송",
+          "referral": "immediate"
+        },
+        "bacterial_conjunctivitis": {
+          "treatment": "테트라사이클린 안연고 × 5일"
+        }
+      }
+    },
+    "skin_infection": {
+      "impetigo": {
+        "icd10": "L01",
+        "localized": {
+          "treatment": "젠타마이신 또는 무피로신 연고 × 5일"
+        },
+        "extensive": {
+          "treatment": "아목시실린 경구 + 이송 고려",
+          "referral": "within_24h"
+        }
+      },
+      "scabies": {
+        "icd10": "B86",
+        "treatment": "퍼메트린 5% 크림 (8시간 후 세척) 또는 벤질 벤조에이트"
+      }
+    }
+  },
+  "vital_signs_reference": {
+    "heart_rate": {
+      "newborn": "100-160 bpm",
+      "1_11mo": "100-150 bpm",
+      "1_2yr": "90-140 bpm",
+      "3_5yr": "80-120 bpm",
+      "adult": "60-100 bpm"
+    },
+    "respiratory_rate": {
+      "newborn": "30-60 /min",
+      "1_11mo": "30-50 /min",
+      "1_5yr": "25-40 /min",
+      "adult": "12-20 /min"
+    },
+    "temperature": {
+      "normal": "36.5-37.5°C",
+      "fever": ">37.5°C",
+      "high_fever": ">39°C",
+      "hypothermia": "<35.5°C"
+    }
+  }
+}

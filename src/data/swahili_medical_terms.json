@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "language": "Swahili (스와힐리어)",
+    "region": "East Africa (Tanzania, Kenya, Uganda)",
+    "version": "1.0"
+  },
+  "symptoms": {
+    "homa": {"en": "fever", "severity": "common"},
+    "kutapika": {"en": "vomiting", "severity": "moderate"},
+    "kuhara": {"en": "diarrhea", "severity": "moderate"},
+    "kikohozi": {"en": "cough", "severity": "moderate"},
+    "kupumua haraka": {"en": "fast breathing / shortness of breath", "severity": "severe"},
+    "macho ya njano": {"en": "yellow eyes / jaundice", "severity": "severe"},
+    "mshtuko": {"en": "seizure / convulsion", "severity": "critical"},
+    "kupoteza fahamu": {"en": "loss of consciousness", "severity": "critical"},
+    "maumivu ya kichwa": {"en": "headache", "severity": "mild"},
+    "baridi baridi": {"en": "chills", "severity": "moderate"},
+    "maumivu ya tumbo": {"en": "abdominal pain", "severity": "moderate"},
+    "uvimbe": {"en": "swelling / edema", "severity": "moderate"},
+    "upungufu wa damu": {"en": "anemia / pale appearance", "severity": "severe"},
+    "usijue kunyonya": {"en": "unable to breastfeed", "severity": "critical"},
+    "rangi ya njano": {"en": "yellow color / jaundice", "severity": "severe"}
+  },
+  "body_parts": {
+    "kichwa": "head",
+    "macho": "eyes",
+    "masikio": "ears",
+    "pua": "nose",
+    "mdomo": "mouth",
+    "shingo": "neck",
+    "kifua": "chest",
+    "tumbo": "abdomen / stomach",
+    "mkono": "arm / hand",
+    "mguu": "leg / foot",
+    "ngozi": "skin"
+  },
+  "conditions": {
+    "malaria": {"sw": "malaria", "common_name": "homa ya malaria"},
+    "pneumonia": {"sw": "nimonia", "common_name": "ugonjwa wa mapafu"},
+    "diarrhea": {"sw": "kuhara", "common_name": "tumbo la kuhara"},
+    "malnutrition": {"sw": "utapiamlo", "common_name": "ukosefu wa lishe"},
+    "anemia": {"sw": "upungufu wa damu"},
+    "tuberculosis": {"sw": "kifua kikuu"},
+    "typhoid": {"sw": "homa ya matumbo"}
+  },
+  "actions": {
+    "peleka hospitalini": "take to hospital",
+    "mpe dawa": "give medicine",
+    "mpe maji": "give fluids",
+    "pumzisha": "rest",
+    "pima joto": "take temperature",
+    "pima uzito": "measure weight",
+    "kaa nyumbani": "stay at home"
+  },
+  "urgency_phrases": {
+    "mara moja": "immediately",
+    "haraka haraka": "urgently",
+    "ndani ya masaa 6": "within 6 hours",
+    "leo": "today",
+    "kesho": "tomorrow",
+    "wiki hii": "this week"
+  },
+  "demographics": {
+    "mtoto": "child",
+    "mtoto mchanga": "newborn",
+    "mwanamke mjamzito": "pregnant woman",
+    "mzee": "elderly person",
+    "mtu mzima": "adult"
+  }
+}

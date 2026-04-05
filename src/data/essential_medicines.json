@@ -1,0 +1,135 @@
+{
+  "version": "WHO Model List of Essential Medicines - 23rd Edition (2023)",
+  "medicines_by_condition": {
+    "malaria": {
+      "treatment": [
+        {
+          "name": "Artemether + Lumefantrine (AL)",
+          "name_sw": "dawa ya malaria AL",
+          "name_hi": "मलेरिया की दवा AL",
+          "dose_forms": "정제 20mg/120mg",
+          "storage": "30°C 이하, 습기 차단",
+          "availability": "primary_health_center",
+          "cost_usd_per_course": 0.50
+        },
+        {
+          "name": "Artesunate",
+          "route": "IV/IM",
+          "indication": "중증 말라리아",
+          "availability": "district_hospital"
+        },
+        {
+          "name": "Chloroquine",
+          "indication": "P. vivax 말라리아 (내성 없는 지역)",
+          "availability": "primary_health_center"
+        }
+      ],
+      "prevention": [
+        {
+          "name": "Sulfadoxine-Pyrimethamine (SP)",
+          "indication": "임산부 예방적 치료 (IPTp)",
+          "availability": "primary_health_center"
+        }
+      ]
+    },
+    "pneumonia": [
+      {
+        "name": "Amoxicillin",
+        "name_sw": "amoksisilin",
+        "dose_forms": "캡슐 250mg, 500mg; 시럽 125mg/5ml",
+        "availability": "primary_health_center",
+        "cost_usd_per_course": 0.30
+      },
+      {
+        "name": "Co-trimoxazole (Trimethoprim+Sulfamethoxazole)",
+        "indication": "페니실린 알레르기 또는 내성",
+        "availability": "primary_health_center"
+      }
+    ],
+    "diarrhea": [
+      {
+        "name": "Oral Rehydration Salts (ORS)",
+        "name_sw": "maji ya chumvi na sukari",
+        "availability": "community_level",
+        "cost_usd_per_sachet": 0.03
+      },
+      {
+        "name": "Zinc sulfate",
+        "dose": "소아 10-20mg/일 × 10-14일",
+        "availability": "primary_health_center",
+        "cost_usd_per_course": 0.20
+      },
+      {
+        "name": "Metronidazole",
+        "indication": "아메바증, 지아르디아",
+        "availability": "primary_health_center"
+      }
+    ],
+    "pain_fever": [
+      {
+        "name": "Paracetamol (Acetaminophen)",
+        "name_sw": "panadol / paracetamol",
+        "name_hi": "पेरासिटामोल",
+        "dose_pediatric": "15mg/kg × 4-6시간마다",
+        "availability": "community_level",
+        "cost_usd_per_10tabs": 0.05
+      },
+      {
+        "name": "Ibuprofen",
+        "dose_pediatric": "5-10mg/kg × 6-8시간마다",
+        "note": "6개월 미만 금기",
+        "availability": "primary_health_center"
+      }
+    ],
+    "skin": [
+      {
+        "name": "Gentamicin eye/ear drops",
+        "availability": "primary_health_center"
+      },
+      {
+        "name": "Tetracycline eye ointment",
+        "indication": "결막염, 트라코마",
+        "availability": "primary_health_center"
+      },
+      {
+        "name": "Permethrin 5% cream",
+        "indication": "옴(scabies)",
+        "availability": "primary_health_center"
+      },
+      {
+        "name": "Mupirocin ointment",
+        "indication": "국소 피부감염",
+        "availability": "district_hospital"
+      }
+    ],
+    "nutrition": [
+      {
+        "name": "RUTF (Ready-to-Use Therapeutic Food)",
+        "brand": "Plumpy'Nut",
+        "indication": "중증 급성 영양실조 (SAM)",
+        "dose": "200kcal/kg/일",
+        "availability": "primary_health_center_in_SAM_programs"
+      }
+    ],
+    "antibiotics_broad": [
+      {
+        "name": "Benzylpenicillin (Penicillin G)",
+        "route": "IM/IV",
+        "indication": "중증 감염",
+        "availability": "district_hospital"
+      },
+      {
+        "name": "Gentamicin",
+        "route": "IM/IV",
+        "indication": "신생아 패혈증, 중증 감염",
+        "availability": "district_hospital"
+      }
+    ]
+  },
+  "availability_levels": {
+    "community_level": "마을 보건 인력 보유",
+    "primary_health_center": "1차 보건소 보유",
+    "district_hospital": "지역 병원 보유",
+    "referral_hospital": "상급 병원 보유"
+  }
+}
